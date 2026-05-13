@@ -3,5 +3,13 @@
   "name": "tanstack-start-app",
   "compatibility_date": "2025-09-02",
   "compatibility_flags": ["nodejs_compat"],
-  "main": "@tanstack/react-start/server-entry"
+  "main": "@tanstack/react-start/server-entry",
+  "d1_databases": [
+      {
+        "binding": "DB",
+        "database_name": "quanta-db",
+        "database_id": "26818c29-9a66-4c74-b99d-5731f266a8fe",
+        "migrations_dir": "migrations"
+      }
+    ]
 }

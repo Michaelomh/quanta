@@ -1,8 +1,8 @@
 import { TanStackDevtools } from "@tanstack/react-devtools";
 import { createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
-import { AppSidebar } from "#/components/AppSidebar";
-import { MobileTopbar } from "#/components/MobileTopbar";
+import { AppSidebar } from "#/components/navigation/AppSidebar";
+import { MobileTopbar } from "#/components/navigation/MobileTopbar";
 import { SidebarInset, SidebarProvider } from "#/components/ui/sidebar";
 import { TooltipProvider } from "#/components/ui/tooltip";
 import appCss from "../styles.css?url";

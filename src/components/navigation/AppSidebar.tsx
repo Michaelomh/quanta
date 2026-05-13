@@ -11,7 +11,7 @@ import {
 	SidebarMenuItem,
 	SidebarRail,
 } from "@/components/ui/sidebar";
-import ThemeToggle from "./ThemeToggle";
+import ThemeToggle from "../ThemeToggle";
 
 const data = {
 	versions: ["1.0.1", "1.1.0-alpha", "2.0.0-beta1"],
